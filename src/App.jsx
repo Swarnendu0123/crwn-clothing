@@ -1,10 +1,6 @@
-import catagoriesData from "./categories.json";
-import CatagoryList from "./components/catagory-list/catagory-list.component";
-import "./App.css";
-
+import Home from "./routes/home.component";
 const App = () => {
-  const catagories = catagoriesData;
-  return <CatagoryList catagories={catagories} />;
+  return <Home />;
 };
 
 export default App;
