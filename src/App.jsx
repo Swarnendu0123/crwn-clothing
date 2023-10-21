@@ -1,6 +1,6 @@
 import catagoriesData from "./categories.json";
 import CatagoryList from "./components/catagory-list/catagory-list.component";
-import "./App.css"
+import "./App.css";
 
 const App = () => {
   const catagories = catagoriesData;
