@@ -20,8 +20,6 @@ const SignUpForm = () => {
   const { displayName, email, password, confirmPassword } = formFields; //de-structuring
   const { setCurrentUser } = useContext(UserContext);
 
-  console.log(formFields);
-  console.log("hit");
   //function to reset the form
   const resetFormField = () => {
     setFormFields(defaultFields);
